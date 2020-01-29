@@ -11,7 +11,7 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(long_calls)
-  long_calls.include? do |call|
+  long_calls.any? do |call|
     call.length > 4
   end
 end
