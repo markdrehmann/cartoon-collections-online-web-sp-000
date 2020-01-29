@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(long_calls)
   long_calls.include? do |call|
-    call.length >= 4
+    call.length > 4
   end
 end
 
