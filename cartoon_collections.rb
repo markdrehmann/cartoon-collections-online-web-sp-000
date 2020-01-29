@@ -11,10 +11,10 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(long_calls)
-  long_calls.include? call.length > 4
+  long_calls.include? .length > 4
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  food.find cheese_types
 end
